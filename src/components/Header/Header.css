@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  width: 100%;
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-link {
+  margin: 0 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+.hero-left {
+  border: 1px solid black;
+  width: 50%;
+  padding: 5rem 5rem;
+}
