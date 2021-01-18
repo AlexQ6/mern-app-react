@@ -35,9 +35,9 @@ const ImageCarousel = () => {
         />
 
         <Carousel.Caption className="caption">
-          <h3>Some f'ing tasty food</h3>
+          <h3>Some tasty food</h3>
           <p>
-            yo punk, eatcho veges.
+            "hey you!, eat yo veges" - Einstein 1947
           </p>
         </Carousel.Caption>
       </Carousel.Item>
