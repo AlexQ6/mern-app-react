@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+}
+
+.hero-left, .hero-right {
+  width: 49%;
+  padding: 5rem 5rem;
+  margin: 0 auto;
+}
+
+.hero-text {
+  margin-bottom: 10rem;
+}
+
+.cta-btn {
+  padding: 1rem;
+  background-color: #e69e2e;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.caption {
+  background-color: rgba(0, 0, 0, 0.583);
+}
