@@ -3,7 +3,7 @@ import { Carousel } from "react-bootstrap";
 
 const ImageCarousel = () => {
   return (
-    <Carousel>
+    <Carousel className="carousel">
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -34,10 +34,10 @@ const ImageCarousel = () => {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
+        <Carousel.Caption className="caption">
+          <h3>Some tasty food</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            "hey you!, eat yo veges" - Einstein 1947
           </p>
         </Carousel.Caption>
       </Carousel.Item>
