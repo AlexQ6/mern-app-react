@@ -13,7 +13,7 @@ const Hero = () => {
           </h1>
         </div>
         <div className="call-to-action">
-          <button className="cta-btn">PLACE AN ORDER</button>
+          <a href="/order" className="cta-btn">PLACE AN ORDER</a>
         </div>
       </div>
       <div className="hero-right">

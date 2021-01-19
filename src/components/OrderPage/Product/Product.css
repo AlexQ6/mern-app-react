@@ -1,0 +1,33 @@
+.product {
+  border: 1px solid black;
+  padding: 1.5rem;
+  width: 20rem;
+  margin: 5rem;
+}
+
+.product-img {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.product-price {
+  font-weight: bold;
+  margin-top: 1rem
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag {
+  list-style-type: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  width: min-content;
+}
+
+.products {
+  display: flex;
+}
